@@ -60,6 +60,7 @@ namespace leave_management.Models
         public IEnumerable<SelectListItem> LeaveTypes { get; set; }
         [Display(Name ="Leave Type")]
         public int LeaveTypeId { get; set; }
+        [Display(Name = "Comment")]
         public string RequestComments { get; set; }
     }
     public class EmployeeLeaveRequestViewVM
